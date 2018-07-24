@@ -1,3 +1,5 @@
+package Util;
+
 import DataStructure.ListNode;
 
 /**
@@ -23,6 +25,14 @@ public class Tools {
         return nodeHead;
     }
 
+
+    public static void printList(ListNode head){
+        if (head == null)return;
+        while (head != null){
+            System.out.println(head.val);
+            head = head.nextNode;
+        }
+    }
     public static void main(String[] args) {
         int[] values = {1,2,3};
         ListNode head = createList(values);
