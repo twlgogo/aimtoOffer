@@ -19,7 +19,7 @@ public class CreateBinTreeFromInOrderandPreOrder {
         int rootVal = preOrder[startPre];
         TreeNode root = new TreeNode(rootVal);
         if (startPre == endPre && startIn == endIn)return root;
-
+        
         //查找根节点在后序遍历中的位置，count记录左子树的大小
         int rootIndex = -1, count = 0;
         for (int i = 0; i <inOrder.length ; i++,++count) {
