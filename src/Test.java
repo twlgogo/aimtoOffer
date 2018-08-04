@@ -1,3 +1,5 @@
+import DataStructure.TreeNode;
+
 /**
  * Created with IntelliJ IDEA.
  * User: tanweiliang
@@ -7,6 +9,5 @@
 public class Test {
 
     public static void main(String[] args) {
-        System.out.println(Integer.TYPE == int.class);
     }
 }
